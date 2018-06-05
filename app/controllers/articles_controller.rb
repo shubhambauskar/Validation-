@@ -48,5 +48,5 @@ class ArticlesController < ApplicationController
     private
         def article_params
             params.require(:article).permit(:title, :categories, :start, :end, :description, :locations, :terms_and_conditions)
-        end    
+        end
 end
