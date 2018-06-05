@@ -1,0 +1,11 @@
+<h1>Showing selected article</h1>
+
+<p>Title:- <%= @article.title %></p>
+<p>Category:-  <%= @article.categories %></p>
+<p>Start Date:-  <%= @article.start_date %></p>
+<p>End Date:-  <%= @article.end_date %></p>
+<p>Description:-  <%= @article.description %></p>
+<p>Locations:-  <%= @article.locations %></p>
+<p>Image name:-  <%= @article.terms_and_conditions %></p>
+    <%= link_to "Edit This article", edit_article_path(@article) %> |
+    <%= link_to "Back to articles listing", articles_path%>
